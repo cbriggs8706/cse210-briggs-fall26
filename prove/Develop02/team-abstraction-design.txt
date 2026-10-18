@@ -1,0 +1,32 @@
+class Program {}
+ 
+class Journal {
+- list<Entry> _entries
++ AddEntry()
++ DisplayAll()
++ SaveToFile()
++ LoadFromFile()
+}
+ 
+class Entry {
+- list: string
+- date: string
+- givenprompt: string
++ Display()
+}
+ 
+class PromptGenerator {
+- List<string> _prompts
++ GetRandomPrompt()
+}
+
+----
+Main Menu - Displays options and receives user selection
+--
+User chooses an option
+--
+1. Write
+2. Display
+3. Save
+4. Load
+5. Quit
