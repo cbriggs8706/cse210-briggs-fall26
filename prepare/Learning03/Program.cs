@@ -27,7 +27,7 @@ class Program
         Console.WriteLine($"New top: {fraction1.GetTop()}");
         Console.WriteLine($"New bottom: {fraction1.GetBottom()}");
 
-        Fraction fraction = new Fraction();
+        Fraction fraction5 = new Fraction();
         Random random = new Random();
 
         for (int i = 1; i <= 20; i++)
@@ -37,12 +37,12 @@ class Program
             int bottom = random.Next(1, 11);
 
             // Update fraction
-            fraction.SetTop(top);
-            fraction.SetBottom(bottom);
+            fraction5.SetTop(top);
+            fraction5.SetBottom(bottom);
 
             // Display fraction
             Console.WriteLine(
-                $"Fraction {i}: string: {fraction.GetFractionString()} Number: {fraction.GetDecimalValue()}"
+                $"Fraction {i}: string: {fraction5.GetFractionString()} Number: {fraction5.GetDecimalValue()}"
             );
         }
     }
