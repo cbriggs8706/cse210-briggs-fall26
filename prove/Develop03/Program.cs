@@ -1,6 +1,6 @@
 using System;
 using System.Diagnostics;
-
+// To exceed I added more scriptures to the bank and randomized them on start up.
 class Program
 {
     static void Main(string[] args)
